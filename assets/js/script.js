@@ -11,6 +11,7 @@ console.log(heute);
 
 /* const date=new Date();
 const [month, day, year] = [date.getMonth(), date.getDate(), date.getFullYear()]; */
+
 function changeText() {
     let userInput = document.getElementById("userInput").value;
     document.getElementById("test2").innerHTML = userInput;
